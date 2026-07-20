@@ -1,16 +1,101 @@
-# React + Vite
+# 📝 React Notes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Notes Application built using **React.js** that allows users to securely create, organize, and manage their notes. The application features authentication, protected routes, rich-text note editing, profile image upload, and user-specific data persistence using LocalStorage.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🌐 https://react-notes-app-tau-rosy.vercel.app
 
-## React Compiler
+## 📌 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔐 User Authentication (Signup & Login)
+- 🛡 Protected Routes
+- 📝 Create and Manage Notes
+- ✍ Rich Text Formatting (Bold & Italic)
+- 🗑 Delete Notes
+- 👤 Profile Image Upload
+- 📅 Timestamp for Every Note
+- 💾 User-specific LocalStorage
+- 📱 Responsive Design
+- 🎨 Modern Dark UI
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Vite
+- React Router DOM
+- Context API
+- LocalStorage
+- React Icons
+- CSS3
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/aaryanjain16/react-notes-app.git
+```
+
+Navigate to the project
+
+```bash
+cd react-notes-app
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+## 📂 Project Structure
+
+```
+react-notes-app
+│
+├── public
+├── src
+│   ├── Components
+│   ├── Context
+│   ├── Pages
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## 🔮 Future Enhancements
+
+- ✏ Edit Notes
+- 🔍 Search Notes
+- 📌 Pin Important Notes
+- 📂 Note Categories
+- 🔔 Toast Notifications
+- 🌙 Light Mode
+- ☁ Backend & Database Integration
+
+## 👨‍💻 Author
+
+**Aaryan Jain**
+
+- GitHub: https://github.com/aaryanjain16
+- LinkedIn: https://www.linkedin.com/in/aaryanjain016/
+
+---
+
+⭐ If you found this project interesting, consider giving it a star on GitHub!
